@@ -2,6 +2,8 @@
 
 'shuffles' your MGSV helicopter music by copying a random file in a given folder over the file that MGSV reads from to play in your helicopter
 
+**warning** this overwrites your file, so make sure you have a copy of it elsewhere
+
 #### Usage
 MSGV-suffle PATH_TO_FILE PATH_TO_MUSIC_FOLDER [INTERVAL]
 
