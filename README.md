@@ -11,3 +11,7 @@ MSGV-suffle PATH_TO_FILE PATH_TO_MUSIC_FOLDER [INTERVAL]
 - PATH_TO_MUSIC_FOLDER - the (absolute) name of the folder that contains the music files you want to be shuffled in
   - will probably break if something other than a music file is shuffled in, keep this folder clear of anything else
 - INTERVAL - optional time between shuffling in milliseconds, minimum 30,000
+
+#### Screenshot
+
+![screenshot](https://raw.github.com/tylergoodman/MGSV-shuffle/master/screenshot.png)
