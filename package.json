@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "'shuffles' your MGSV helicopter music",
   "private": true,
-  "main": "index.js",
+  "main": "MGSV-shuffle.js",
   "bin": {
     "MGSV-shuffle": "./bin/MGSV-shuffle"
   },
@@ -24,7 +24,7 @@
   },
   "dependencies": {},
   "nexe": {
-    "input": "./index.js",
+    "input": "./MGSV-shuffle.js",
     "output": "./bin/MGSV-shuffle^$",
     "runtime": {
       "framework": "nodejs",
