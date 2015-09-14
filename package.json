@@ -19,15 +19,17 @@
     "url": "https://github.com/tylergoodman/MGSV-shuffle/issues"
   },
   "homepage": "https://github.com/tylergoodman/MGSV-shuffle",
-  "devDependencies": {},
+  "devDependencies": {
+    "nexe": "^0.4.1"
+  },
   "dependencies": {},
   "nexe": {
     "input": "./index.js",
     "output": "./bin/MGSV-shuffle^$",
     "runtime": {
-        "framework": "nodejs",
-        "version": "4.0.0",
-        "ignoreFlags": true
+      "framework": "nodejs",
+      "version": "4.0.0",
+      "ignoreFlags": true
     }
   }
 }

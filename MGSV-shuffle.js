@@ -1,4 +1,4 @@
-/// <reference path="./typings/tsd.d.ts" />
+#! node
 var fs = require('fs');
 var path = require('path');
 var _a = process.argv.slice(2), filename = _a[0], shuffle_folder = _a[1], time = _a[2];

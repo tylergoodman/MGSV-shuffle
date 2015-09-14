@@ -20,7 +20,7 @@
         "!./node_modules/**/*"
     ],
     "files": [
-        "./index.ts",
+        "./MGSV-shuffle.ts",
         "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx-lite.d.ts",
         "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.aggregates.d.ts",
         "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.all.d.ts",
