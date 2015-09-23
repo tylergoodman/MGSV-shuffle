@@ -17,32 +17,18 @@
     "filesGlob": [
         "./**/*.ts",
         "./**/*.tsx",
-        "!./node_modules/**/*"
+        "!./node_modules/**/*",
+        "!./bin/**/*"
     ],
     "files": [
-        "./MGSV-shuffle.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx-lite.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.aggregates.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.all.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.async-lite.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.async-tests.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.async.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.backpressure-lite.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.backpressure-tests.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.backpressure.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.binding-lite.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.binding.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.coincidence-lite.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.coincidence.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.experimental.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.joinpatterns.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.lite.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.testing.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.time-lite.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.time.d.ts",
-        "./tmp/nexe/nodejs/4.0.0/node-v4.0.0/tools/eslint/node_modules/inquirer/node_modules/rx/ts/rx.virtualtime.d.ts",
+        "./src/index.ts",
+        "./typings/github-electron/github-electron.d.ts",
         "./typings/node/node.d.ts",
-        "./typings/tsd.d.ts"
+        "./typings/react/react.d.ts",
+        "./typings/tsd.d.ts",
+        "./src/app/FSFilesList.tsx",
+        "./src/app/FSInput.tsx",
+        "./src/app/index.tsx",
+        "./src/main.tsx"
     ]
 }

@@ -31,7 +31,7 @@ declare var __dirname: string;
 declare function setTimeout(callback: (...args: any[]) => void, ms: number, ...args: any[]): NodeJS.Timer;
 declare function clearTimeout(timeoutId: NodeJS.Timer): void;
 declare function setInterval(callback: (...args: any[]) => void, ms: number, ...args: any[]): NodeJS.Timer;
-declare function clearInterval(intervalId: NodeJS.Timer): void;
+declare function clearInterval(intervalId: NodeJS.Timer & number): void;
 declare function setImmediate(callback: (...args: any[]) => void, ...args: any[]): any;
 declare function clearImmediate(immediateId: any): void;
 
@@ -332,7 +332,7 @@ declare module NodeJS {
         gc: () => void;
     }
 
-    export interface Timer {
+    export interface Timer extends Number {
         ref() : void;
         unref() : void;
     }
